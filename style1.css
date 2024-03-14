@@ -24,3 +24,32 @@ h3 {
     font-size: 30px;
     color: red;
 }
+
+.related-post{
+    list-style: none;
+}
+
+.author-box{
+    color:purple;
+}
+
+article ul li:nth-child(odd) {
+    font-weight: bold;
+    color : red;
+}
+
+a:link{
+    color: pink;
+}
+
+a:visited{
+    color: yellow;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
