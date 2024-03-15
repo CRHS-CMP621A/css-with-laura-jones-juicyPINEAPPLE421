@@ -8,28 +8,39 @@
     <style>
         .el--1 {
             background-color: blueviolet;
+            align-self: flex-start;
+            order: 2;
         }
         .el--2 {
             background-color: orangered;
+            order: 7;
         }
         .el--3 {
             background-color: green;
             height: 150px;
+            order: 8;
         }
         .el--4 {
             background-color: goldenrod;
+            align-self: stretch;
+            order: 3;
         }
         .el--5 {
             background-color: palevioletred;
+            align-self: flex-end;
+            order: 4;
         }
         .el--6 {
             background-color: steelblue;
+            order: 1;
         }
         .el--7 {
             background-color: yellow;
+            order: 5;
         }
         .el--8 {
             background-color: crimson;
+            order: 6;
         }
 
         .container {
@@ -40,10 +51,10 @@
             margin: 40px;
 
             /* FLEXBOX */
-            /* display: flex; */
-
+            display: flex;
+            align-items: center;
+            gap: 40px;
         }
-        
     </style>
 </head>
 

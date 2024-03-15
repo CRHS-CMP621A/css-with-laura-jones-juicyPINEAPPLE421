@@ -53,3 +53,24 @@ a:hover{
 a:active{
     color: green;
 }
+
+aside {
+    background-color:lightgray;
+    padding: 50px;
+    border-top: 40px solid rgb(133, 186, 255);
+    border-bottom: 40px solid rgb(133, 186, 255);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px;
+    cursor: crosshair;
+    position: absolute;
+    top: 150px;
+    right: 1000px;
+}
